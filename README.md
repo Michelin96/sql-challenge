@@ -5,8 +5,14 @@ Pewlett Hackard needs a research project done on employees of the corporation fr
 ### Primary Keys
 
 titles = title_id
+
 salaries = emp_no
+
 employees = emp_no
+
 dept_manager = emp_no
+
 dept_emp = emp_no
+
 departments = dept_no
+
