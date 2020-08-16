@@ -15,8 +15,8 @@ CREATE TABLE dept_emp (
 );
 
 CREATE TABLE dept_manager (
-	emp_no INT NOT NULL,
-	dept_no VARCHAR(4)
+	dept_no VARCHAR(4),
+	emp_no INT NOT NULL
 );
 
 CREATE TABLE salaries (
