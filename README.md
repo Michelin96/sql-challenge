@@ -1,2 +1,3 @@
 # sql-challenge
-Learning SQL database structure and queries
+
+Pewlett Hackard needs a research project done on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files. These CSV files will be used to create a realational diagram and subsqently several tables that will be used to analyze the employee data.
