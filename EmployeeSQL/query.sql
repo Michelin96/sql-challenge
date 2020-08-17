@@ -44,5 +44,8 @@ INNER JOIN salaries s ON
 e.emp_no=s.emp_no;
 
 -- List first name, last name, and hire date for employees who were hired in 1986.
+-- Thanks to javapoint.com for the tip on selecting from the date data type.
 
-
+SELECT first_name, last_name, hire_date
+FROM employees
+WHERE hire_date <'1986-12-31' AND hire_date >= '1986-01-01';
