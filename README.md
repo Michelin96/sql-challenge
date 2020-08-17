@@ -1,18 +1,5 @@
 # sql-challenge
 
-Pewlett Hackard needs a research project done on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files. These CSV files will be used to create a realational diagram and subsqently several tables that will be used to analyze the employee data.
+Pewlett Hackard needs a research project done on employees of the corporation from the 1980s and 1990s. All that remains of the database of employees from that period are six CSV files. In PostgreSQL, these CSV files will be used to create several tables to analyze the employee data.
 
-### Primary Keys
-
-titles = title_id
-
-salaries = emp_no
-
-employees = emp_no
-
-dept_manager = emp_no
-
-dept_emp = emp_no
-
-departments = dept_no
-
+After looking at the CSV's, an entity relational diagram was created to visualize how to structure the database. The dept_emp table did not have a column with unique data, so a composite key was created using both the emp_no and dept_no columns.
