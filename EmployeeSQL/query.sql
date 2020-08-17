@@ -48,4 +48,16 @@ e.emp_no=s.emp_no;
 
 SELECT first_name, last_name, hire_date
 FROM employees
-WHERE hire_date <'1986-12-31' AND hire_date >= '1986-01-01';
+WHERE hire_date <= '1986-12-31' AND hire_date >= '1986-01-01';
+
+-- List the manager of each department with the following information: 
+-- department number, department name, the manager's employee number, last name, first name.
+
+SELECT d.dept_no, d.dept_name, e.emp_no, e.last_name, e.first_name
+FROM employees e
+--Add the department managers to the info from the employee table
+INNER JOIN dept_manager dm ON
+e.emp_no=dm.emp_no
+--Add the departments to the info from the employee table
+INNER JOIN departments d ON 
+d.dept_no=dm.dept_no;
