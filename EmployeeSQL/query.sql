@@ -93,3 +93,6 @@ e.emp_no=de.emp_no
 INNER JOIN departments d ON
 d.dept_no=de.dept_no
 WHERE d.dept_name LIKE 'Sales';
+
+-- List all employees in the Sales and Development departments, including 
+-- their employee number, last name, first name, and department name.
