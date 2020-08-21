@@ -67,7 +67,6 @@ ALTER TABLE dept_emp
     MATCH SIMPLE
 ;
     	
-    
 ALTER TABLE employees
     ADD FOREIGN KEY (emp_no)
     REFERENCES salaries(emp_no)
