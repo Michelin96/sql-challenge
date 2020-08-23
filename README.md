@@ -10,7 +10,7 @@ After a preliminary review of the CSV's, an entity relational diagram (ERD_pewle
 
 * Import the CSV files from the data folder to the correspoinging tables in the following order: titles, departments, employees, salaries, dept_manager, dept_emp
 
-* Query.sql contains several SQL queries regarding the employee data. Copy the desired query to the Query Editor and run it on the database:
+* Query.sql contains several SQL queries regarding the employee data. The number in the comment before each query corresponds to the list below. Copy the desired query to the Query Editor and run it on the database:
 
 1. Identification (name, number, and gender) for all employees and their salary
 2. Employees hired in 1986
