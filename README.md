@@ -11,11 +11,12 @@ After a preliminary review of the CSV's, an entity relational diagram (ERD_pewle
 * Import the CSV files from the data folder to the correspoinging tables in the following order: titles, departments, employees, salaries, dept_manager, dept_emp
 
 * Query.sql contains several SQL queries regarding the employee data. Copy the desired query to the Query Editor and run it on the database:
-    1.  Identification (name, number, and gender) for all employees and their salary
-    2.  Employees hired in 1986
-    3.  Department Managers and the departments they manage
-    4.  The name of each employee and their department
-    5.  Employees with the last name of 'Hercules' whose first name begins with 'B'
-    6.  All the employees in the Sales department
-    7.  All the employees in the Sales or Development departments
-    8.  Last names grouped by how often they occur, with the most frequent first
+
+1. Identification (name, number, and gender) for all employees and their salary
+2. Employees hired in 1986
+3. Department Managers and the departments they manage
+4. The name of each employee and their department
+5. Employees with the last name of 'Hercules' whose first name begins with 'B'
+6. All the employees in the Sales department
+7. All the employees in the Sales or Development departments
+8. Last names grouped by how often they occur, with the most frequent first
