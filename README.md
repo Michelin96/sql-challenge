@@ -8,7 +8,7 @@ After a preliminary review of the CSV's, an entity relational diagram (ERD_pewle
 
 * Create a new database in PostgreSQL. Open a new Tables Query Tool window. Run the code from schema.sql in the Query Editor to create the tables and keys for the database.
 
-* Import the CSV files from the data folder to the correspoinging tables in the following order: titles, departments, employees, salaries, dept_manager, dept_emp
+* Import the CSV files from the EmployeeSQL/data folder to the correspoinging tables in the following order: titles, departments, employees, salaries, dept_manager, dept_emp
 
 * Query.sql contains several SQL queries regarding the employee data. The number in the comment before each query corresponds to the list below. Copy the desired query to the Query Editor and run it on the database:
 
